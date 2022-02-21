@@ -2,8 +2,8 @@
 public class TesteGetESet {
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();
-		conta.setNumero(140);
+		Conta conta = new Conta(1337, 24226);
+//		conta.setNumero(140);
 		System.out.println(conta.getNumero());
 		
 		Cliente bia = new Cliente();
